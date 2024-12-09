@@ -72,6 +72,9 @@ document.getElementById('productForm').addEventListener('submit', function(event
   document.getElementById('productForm').reset();
   displayProducts();
 });
-
+     
+document.getElementById('viewCartBtn').addEventListener('click', function() {
+    displayCart();
+  });
 
 displayProducts();
